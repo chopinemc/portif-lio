@@ -1,102 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Caio Henrique Oliveira Dias</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e9f0f5;
-            color: #333;
-        }
-        header {
-            background-color: #007acc;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
-        section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px;
-        }
-        h2 {
-            color: #007acc;
-            border-bottom: 2px solid #007acc;
-            padding-bottom: 5px;
-        }
-        .projeto, .sobre {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 100%;
-            border-radius: 5px;
-            margin: 10px 0;
-        }
-        footer {
-            background-color: #007acc;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio - Caio Chod</title>
+  <!-- Fonte estilo grafitti do Google Fonts (exemplo: 'Fredericka the Great') -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #111; /* Fundo escuro pra destacar o grafitti */
+      color: #eee;
+    }
+    nav {
+      background: #222;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #f0f;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff69b4;
+    }
+    section {
+      padding: 80px 20px 40px;
+      min-height: 100vh;
+    }
+    #inicio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: url('sua-imagem.jpg') no-repeat center center/cover;
+      color: #fff;
+      text-shadow: 2px 2px 6px #000;
+      height: 100vh;
+      gap: 20px;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 48px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <h1>Portfólio Digital - Caio Henrique Oliveira Dias (Chod)</h1>
-    <p>Curso: DSM - Desenvolvimento de Software e Multiplataformas</p>
-</header>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#projetos">Meus projetos</a>
+    <a href="#habilidades">Minhas habilidades</a>
+  </nav>
 
-<section>
-    <div class="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Sou estudante de DSM e sou CLT, então fiz o básico do que eu consegui mas com muito esforço e buscando melhorar cada dia mais. pois assim como tudo na vida. temos que buscar evolução constante, amém.</p>
-    </div>
+  <section id="inicio">
+    <h1>Salve! Eu sou o Caio Chod</h1>
+    <p>Portfólio com estilo grafitti, trazendo minha vibe e meus trabalhos.</p>
+  </section>
 
-    <div class="projeto">
-        <h2>Projeto Final: WebVision - Design para Todos</h2>
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Aqui você conta um pouco da sua história, experiências, quem você é.</p>
+  </section>
 
-        <h3>📌 Briefing e Problema:</h3>
-        <p>O projeto busca criar uma interface acessível, intuitiva e minimalista nos detalhes. com boa usabilidade, visando atender usuários de diferentes perfis.</p>
+  <section id="projetos">
+    <h2>Meus projetos</h2>
+    <p>Mostre seus trabalhos, links, imagens, etc.</p>
+  </section>
 
-  
-
-        <h3>🎨 Protótipos de Alta Fidelidade:</h3>
-        <p>Visualize o protótipo clicando abaixo:</p>
-        <p><a href="https://www.figma.com" target="_blank">👉 Ver Protótipo Interativo no Figma</a></p>
-
-        <h3>🖌️ Elementos Gráficos:</h3>
-        <p>Exemplos de botões, ícones ou logotipo:</p>
-        <img src="https://via.placeholder.com/300x100?text=Botões+e+Ícones" alt="Elementos Gráficos">
-
-        <h3>📝 Processo de Criação:</h3>
-        <p>Durante o desenvolvimento, defini uma paleta de cores azul clara, tipografia moderna (Sans-serif) e foco na hierarquia visual.</p>
-
-        <h3>🔗 Link para o Protótipo:</h3>
-        <p><a href="https://www.figma.com" target="_blank">👉 Acessar Protótipo Completo</a></p>
-    </div>
-</section>
-
-<footer>
-    <p>© 2025 - Caio Henrique Oliveira Dias | Projeto de Design Digital</p>
-</footer>
+  <section id="habilidades">
+    <h2>Minhas habilidades</h2>
+    <p>Liste as skills, ferramentas e tudo mais que manda bem.</p>
+  </section>
 
 </body>
 </html>
