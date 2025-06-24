@@ -42,7 +42,7 @@
     }
 
     section {
-      padding: 100px 20px 40px; /* espaço extra pra não ficar embaixo do menu */
+      padding: 100px 20px 40px;
       min-height: 100vh;
     }
 
@@ -86,6 +86,31 @@
       max-width: 800px;
       margin: 0 auto;
     }
+
+    /* Estilo para lista de projetos */
+    #projetos ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    #projetos li {
+      margin-bottom: 20px;
+      background-color: #1c1c1c;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    #projetos a {
+      color: #f0f;
+      text-decoration: underline;
+    }
+
+    #projetos a:hover {
+      color: #ff69b4;
+    }
   </style>
 </head>
 <body>
@@ -109,7 +134,22 @@
 
   <section id="projetos">
     <h2>Meus projetos</h2>
-    <p>Mostre seus trabalhos, links, imagens, etc.</p>
+    <ul>
+      <li>
+        <strong>Do.it - Faça você mesmo</strong><br />
+        <em>App de tarefas</em><br />
+        <a href="https://www.figma.com/design/SzcwLv701YKdg3m160dfXJ/Untitled?node-id=0-1&t=rnXTdldHsNeFzGiF-1" target="_blank">
+          Ver projeto no Figma
+        </a>
+      </li>
+      <li>
+        <strong>Quadrado Mágico PY</strong><br />
+        <em>Script em Python para verificar Quadrados Mágicos</em><br />
+        <a href="quadrado_magico.py" download>
+          Baixar código Python
+        </a>
+      </li>
+    </ul>
   </section>
 
   <section id="habilidades">
