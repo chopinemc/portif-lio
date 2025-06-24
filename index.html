@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfólio - Caio Chod</title>
-  <!-- Fonte estilo grafitti do Google Fonts -->
+
+  <!-- Fonte estilo grafitti -->
   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -40,26 +42,26 @@
     }
 
     section {
-      padding: 80px 20px 40px;
+      padding: 100px 20px 40px; /* espaço extra pra não ficar embaixo do menu */
       min-height: 100vh;
     }
 
     #inicio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to bottom, #222, #111);
-  color: #fff;
-  text-shadow: 2px 2px 6px #000;
-  height: 100vh;
-  min-height: calc(100vh - 60px);
-  padding-top: 60px;
-  gap: 20px;
-  font-family: 'Fredericka the Great', cursive;
-  text-align: center;
-  padding: 0 20px;
-}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to bottom, #222, #111), url('https://images.unsplash.com/photo-1611429403455-0053413a818e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      color: #fff;
+      text-shadow: 2px 2px 6px #000;
+      height: 100vh;
+      padding-top: 80px;
+      gap: 20px;
+      font-family: 'Fredericka the Great', cursive;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 
     #inicio h1 {
       font-size: 36px;
@@ -71,6 +73,19 @@
       font-size: 18px;
       max-width: 800px;
     }
+
+    h2 {
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
   </style>
 </head>
 <body>
@@ -78,4 +93,29 @@
   <nav>
     <a href="#inicio">Início</a>
     <a href="#sobre">Sobre mim</a>
-    <a href="
+    <a href="#projetos">Meus projetos</a>
+    <a href="#habilidades">Minhas habilidades</a>
+  </nav>
+
+  <section id="inicio">
+    <h1>Salve! Eu sou o Caio Henrique Oliveira Dias (Chod)<br />Garoto de programa</h1>
+    <p>Apresento para vocês meu portfólio, para que possam conhecer um pouco mais sobre mim e me acompanhar neste processo de aprendizado e evolução constante que estou buscando.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Como visto acima, eu me chamo Caio Henrique Oliveira Dias, eu tenho 21 anos, sou nascido e criado em Marília. Comecei a cursar DSM este ano. Gosto muito da área da programação. Confesso ter um pouco de dificuldades no começo devido à correria de ser CLT e estudante ao mesmo tempo, mas tudo se ajeita — e o que não pode é parar o corre, não é mesmo, lil nigga.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Meus projetos</h2>
+    <p>Mostre seus trabalhos, links, imagens, etc.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Minhas habilidades</h2>
+    <p>No momento, confesso que minhas skills em programação não são as mais altas, porém é algo que eu estou lutando para melhorar. Estou aprendendo a programar em HTML, CSS, JavaScript, utilizando e descobrindo cada vez mais sobre ferramentas de design digital. Então viso o objetivo de retornar a esta página no futuro e trazer atualizações sobre a minha evolução, para que tanto você como eu possamos acompanhar esta caminhada rumo ao topo do universo da programação.</p>
+  </section>
+
+</body>
+</html>
